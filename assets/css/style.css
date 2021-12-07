@@ -340,7 +340,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .carousel-item::before {
   content: "";
-  background-color: rgba(4, 12, 21, 0.5);
+  /* background-color: rgba(4, 12, 21, 0.5); */
 }
 #hero .carousel-container {
   display: flex;
@@ -352,7 +352,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 50px;
 }
 #hero h2 {
-  color: #fff;
+  /* color: #fff; */
   margin: 0;
   font-size: 48px;
   font-weight: 700;
@@ -360,7 +360,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero p {
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
-  color: #fff;
+  /* color: #fff; */
   margin-top: 10px;
 }
 @media (min-width: 1200px) {
@@ -399,7 +399,7 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(255, 255, 255, 0.2);
   border-radius: 50px;
   transition: 0.3s;
-  color: rgba(255, 255, 255, 0.5);
+  color: black;
   width: 54px;
   height: 54px;
   display: flex;
@@ -408,7 +408,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero .carousel-control-next-icon:hover, #hero .carousel-control-prev-icon:hover {
   background: rgba(255, 255, 255, 0.3);
-  color: rgba(255, 255, 255, 0.8);
+  color: black;
 }
 #hero .carousel-indicators li {
   cursor: pointer;
